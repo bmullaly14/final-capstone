@@ -7,7 +7,7 @@
     >
       Looking For Somewhere Else?
     </button>
-    <form v-on:submit.prevent="submitForm" v-show="showAddRestaurantForm">
+    <form v-on:submit.prevent="SubmitForm" v-show="showAddRestaurantForm">
       <div class="form-row">
         <div class="form-group col-md-12" id="name-input">
           <!-- <label for="name">Name:</label> -->
